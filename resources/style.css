@@ -1,0 +1,121 @@
+
+body {
+  background-color: #000;
+  color: seashell;
+  /*opacity: 0.9;*/
+  margin: 0;
+}
+a {
+  color: seashell;
+}
+.container {
+  text-align: center;
+  opacity: 0.5;
+  font-family: Helvetica;
+  font-size: 22px;
+  position: relative;
+}
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  z-index: 10;
+  
+}
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+.navigation ul {
+  list-style: none;
+ 
+}
+.navigation li {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 20px;
+  color: seashell;
+}
+.content {
+  padding-top: 70px;
+  text-align: center;
+}
+.mission {
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.missionText {
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+}
+.monthTea h2 {
+  padding-top: 50px;
+}
+.monthTeaImg {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: auto;
+}
+.monthTeaImg img {
+  height: 200px;
+  width: 300px;
+}
+.monthTeaImg h4 {
+  margin: 10px auto 20px;
+}
+.locations {
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.locations h2 {
+  padding: 50px;
+  font-weight: bolder;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 980px;
+}
+.boxes .box {
+  /*height: 300px;*/
+  width: 300px;
+  background-color: #000;
+  opacity: 1;
+}
+.box h3,
+.box p {
+  margin: 38px 0;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+h2, h3, h4, h5 {
+  font-weight: bolder;
+}
